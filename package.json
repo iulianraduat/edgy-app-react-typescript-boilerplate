@@ -1,0 +1,68 @@
+{
+  "name": "edgy-app-react-typescript-boilerplate",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "http://edgy.ferbinder.com/",
+  "dependencies": {
+    "edgy-api": "^1.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@types/jest": "24.0.15",
+    "@types/node": "12.0.10",
+    "@types/react": "16.8.22",
+    "@types/react-dom": "16.8.4",
+    "eslint-plugin-react-hooks": "^1.6.1",
+    "react-app-rewired": "2.1.3",
+    "react-scripts": "3.0.1",
+    "typescript": "3.4.5"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iulian-radu-at/edgy-app-react-typescript-boilerplate.git"
+  },
+  "keywords": [
+    "Edgy",
+    "μApp",
+    "microApp"
+  ],
+  "author": "Iulian Radu <iulian.radu@gmx.at>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iulian-radu-at/edgy-app-react-typescript-boilerplate/issues"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "jest": {
+    "modulePathIgnorePatterns": [
+      "./node_modules",
+      "./history"
+    ],
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    },
+    "testRegex": "src/*(/(__tests?__/)([^_].*/)*?[^_][^/]*?\\.(test|spec)?\\.(js?))$",
+    "setupFiles": [
+      "./enzymeAdapter.setup.js"
+    ]
+  }
+}
