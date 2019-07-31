@@ -5,6 +5,7 @@ import AnAppCfgRadioButton from './components/AnAppCfgRadioButton';
 import AnAppRadioButton from './components/AnAppRadioButton';
 import ApiKeyRadioButton from './components/ApiKeyRadioButton';
 import PermalinkRadioButton from './components/PermalinkRadioButton';
+import 'sanitize.css';
 
 const styles: { [key: string]: React.CSSProperties } = {
   appCfg: {
@@ -12,6 +13,7 @@ const styles: { [key: string]: React.CSSProperties } = {
     textAlign: 'left'
   },
   container: {
+    padding: 20,
     textAlign: 'center'
   },
   header: {
