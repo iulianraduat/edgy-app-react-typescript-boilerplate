@@ -14,6 +14,8 @@
     "dbaeumer.vscode-eslint",
     // https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
     "eamodio.gitlens",
+    // https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script
+    "eg2.vscode-npm-script",
     // https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
     "esbenp.prettier-vscode",
     // https://marketplace.visualstudio.com/items?itemName=fcrespo82.markdown-table-formatter
